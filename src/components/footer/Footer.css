@@ -1,13 +1,16 @@
 .footerStyle {
-    background-color: #333;
+    background-color: #6c69e8;
     color: #fff;
     text-align: center;
     padding: 1.2rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+    /* justify-content: space-between; */
+    gap: 15px;
+
 }
-li {
+/* li {
     display: inline-table;
 }
 .alingIcons {
@@ -15,8 +18,38 @@ li {
     margin-right: auto;
 }
 .outlines {
-    display: flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .outlines1 {
     display: inline-flex;
 }
+
+.alingIcons {
+    display: flex;
+    align-items: center;
+} */
+
+.inline-elements {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* width: 100%; */
+    /* gap: 100px; */
+    margin: 0 100px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 40px;
+}
+
+.footer-container div {
+    flex: 1;
+  }
+

@@ -1,0 +1,17 @@
+/* .bg-body-tertiary{
+    border : '2px solid black'
+} */
+
+.container-top {
+    background-color : hsl(238, 74%, 65%);
+    border : 1px solid black;
+}
+
+.btn btn-outline-success {
+    background-color: forestgreen;
+}
+
+.clogo {
+    height : 2rem;
+    /* max-width: 30%; */
+}
